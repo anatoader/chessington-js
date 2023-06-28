@@ -11,7 +11,7 @@ describe('Pawn', () => {
 
     describe('white pawns', () => {
 
-        let board;
+        let board: Board;
         beforeEach(() => board = new Board(Player.WHITE));
 
         it('can move one square up', () => {
@@ -44,7 +44,7 @@ describe('Pawn', () => {
 
     describe('black pawns', () => {
 
-        let board;
+        let board: Board;
         beforeEach(() => board = new Board(Player.BLACK));    
 
         it('can move one square down', () => {
